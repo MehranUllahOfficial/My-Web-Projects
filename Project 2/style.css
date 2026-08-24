@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5 {
 .gallery-grid .gallery-item {
   border-radius: 24px;
   overflow: hidden;
-  background: #e3d9d0;
+  /* background: #e3d9d0; */
   min-height: 180px;
   display: flex;
   align-items: center;
@@ -374,6 +374,10 @@ h1, h2, h3, h4, h5 {
   .contact .d-flex.flex-wrap.gap-3 a {
     width: 100%;
     text-align: center;
+  }
+
+  .m_center {
+    justify-content: center;
   }
   
   .footer .text-md-end,
